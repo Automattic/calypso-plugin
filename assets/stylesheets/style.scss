@@ -1,0 +1,54 @@
+.uses-calypso-plugin-styles {
+	// Shared
+	@import 'shared/reset'; // css reset before the rest of the styles are defined
+	@import 'shared/functions'; // functions that we've used from Compass, ported over
+	@import 'shared/functions/functions'; // sass functions for z-index, etc.
+	@import 'shared/colors'; // import all of our wpcom colors
+	@import 'shared/utilities'; // Helper classes
+	@import 'shared/typography'; // all the typographic rules, variables, etc.
+	@import 'shared/mixins/mixins'; // sass mixins for gradients, bordius radii, etc.
+	@import 'shared/extends'; // sass extends for commonly used styles
+	@import 'shared/animation'; // all UI animation
+	@import 'shared/forms'; // form styling
+	@import 'shared/dropdowns'; // dropdown styling
+
+	// Components
+	@import 'calypso-components';
+}
+
+// Outside the frame
+#wpcontent {
+	padding-left: 0;
+}
+
+#wpbody-content {
+	padding-bottom: 0;
+}
+
+#wpfooter {
+	display: none; //TODO hide this another way
+}
+
+#admin-notice-list {
+	transition: all cubic-bezier(0.795, -0.035, 0.000, 1.000) .5s;
+	max-height: 0;
+	overflow: hidden;
+
+	&.admin-notice-list-show {
+		max-height: 600px;
+		overflow: auto;
+		padding: 20px 0;
+	}
+}
+
+#wc-admin-notices {
+	@import 'shared/colors'; // just for the dark blue below.
+
+	a.notice__action {
+		color: white;
+		background: $blue-dark;
+	}
+	.wordpress-notices {
+		margin-bottom: 0;
+	}
+}

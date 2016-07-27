@@ -1,0 +1,23 @@
+// ==========================================================================
+// Components
+//
+// This is an import af all component CSS we use from Calypso.
+// Please keep these imports sorted and use specificity to ensure that
+// stylesheet order does not matter.
+// ==========================================================================
+
+@import 'main';
+@import 'components/accordion/style';
+@import 'components/card/style';
+@import 'components/notice/style';
+@import 'components/forms/form-label/style';
+@import 'components/forms/form-select/style';
+@import 'components/forms/form-text-input/style';
+@import 'components/forms/form-text-input-with-affixes/style';
+@import 'components/gridicon/style';
+@import 'components/tooltip/style';
+@import 'components/button/style';
+@import 'components/search/style';
+@import 'components/search-card/style';
+@import 'components/section-nav/style';
+@import 'layout/sidebar/style';

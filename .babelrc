@@ -1,0 +1,9 @@
+{
+	"presets": [ "es2015", "stage-1", "react" ],
+	"plugins": [
+		"transform-runtime",
+		"transform-class-properties",
+		"syntax-jsx",
+		"transform-react-jsx"
+	]
+}
