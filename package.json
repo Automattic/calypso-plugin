@@ -49,6 +49,7 @@
     "react": "15.1.0",
     "react-addons-create-fragment": "15.1.0",
     "react-dom": "15.1.0",
+    "react-draggable": "^2.1.2",
     "react-pure-render": "1.0.2",
     "react-tap-event-plugin": "1.0.0",
     "react-tooltip": "^1.1.4"

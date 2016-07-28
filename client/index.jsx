@@ -4,11 +4,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../assets/stylesheets/style.scss';
 import AdminNotices from './admin-notices';
+import PopoverDemo from './components/react-popover/test/demo';
 
 const rootComponent = (
 	<div>
 		<h3>Calypso Plugin</h3>
 		<p>This is generated output from React</p>
+		<PopoverDemo />
 	</div>
 );
 
