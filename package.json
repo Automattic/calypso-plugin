@@ -86,7 +86,7 @@
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "webpack": "1.12.15",
-    "webpack-dev-server": "1.11.0",
+    "webpack-dev-server": "5.2.4",
     "wp-calypso": "github:automattic/wp-calypso#c6d65cd643bb4e666dda9920f8b344af242b297d"
   }
 }
